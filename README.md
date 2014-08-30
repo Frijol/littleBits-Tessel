@@ -4,7 +4,10 @@ littleBits-Tessel
 Example code for littleBits + Tessel.
 
 Connect like this:
+
 ![](https://31.media.tumblr.com/a7133464517066406fcc3ea4b8a06453/tumblr_inline_nb3gxwGGPG1s75tgz.jpg)
+
+If you connect over Tessel's Vin at 5V, you don't need a battery for the littleBits– and vice versa; if you connect a battery, you don't need to power over Tessel.
 
 ## Things to know about Tessel
 * Tessel communicates with 3.3V.
