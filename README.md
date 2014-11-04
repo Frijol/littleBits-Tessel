@@ -3,6 +3,8 @@ littleBits-Tessel
 
 Example code for littleBits + Tessel.
 
+IMPORTANT NOTE: littleBits talks over 5V; Tessel talks over 3.3. With this setup, you can send signals from Tessel to littleBits, but DO NOT send signals from littleBits to Tessel or you will fry your Tessel.
+
 Connect like this:
 
 ![](https://31.media.tumblr.com/a7133464517066406fcc3ea4b8a06453/tumblr_inline_nb3gxwGGPG1s75tgz.jpg)
